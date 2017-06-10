@@ -738,7 +738,7 @@ void subtract_division_result(big_integer::uint * a, big_integer::uint * b, int 
         a[j] = (big_integer::uint)denum;
     }
     if (carry != 0) {
-        a[++to] += carry;
+        a[++to] += static_cast<big_integer::uint>(carry);
         big_integer::uint cnt = 0;
         while (1LL * a[to] >= big_integer::BASE) {
             a[to] -= (big_integer::uint)(big_integer::BASE);

@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7464baa-901b-4165-9f4c-136b7e0f6b69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/big_integer.cpp" afterPath="$PROJECT_DIR$/big_integer.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -29,9 +28,11 @@
       <file leaf-file-name="big_integer.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/big_integer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="44">
+              <caret line="728" column="53" lean-forward="true" selection-start-line="728" selection-start-column="53" selection-end-line="728" selection-end-column="53" />
+              <folding>
+                <element signature="e#146#165#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/big_integer_testing.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+              <caret line="51" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -397,12 +398,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497089278732</updated>
-      <workItem from="1497089280355" duration="20855000" />
+      <workItem from="1497089280355" duration="21167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20855000" />
+    <option name="totallyTimeSpent" value="21167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
@@ -498,7 +499,7 @@
     <entry file="file://$PROJECT_DIR$/big_integer_testing.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <caret line="51" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -507,9 +508,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/big_integer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="44">
+          <caret line="728" column="53" lean-forward="true" selection-start-line="728" selection-start-column="53" selection-end-line="728" selection-end-column="53" />
+          <folding>
+            <element signature="e#146#165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
