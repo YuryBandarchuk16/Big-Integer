@@ -141,6 +141,8 @@ algorithm
 -
 cassert
 -
+string
+-
 big_integer.h
 /Users/YuryBandarchuk/Desktop/cpp-course-master/bigint/big_integer.h
 
