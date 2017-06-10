@@ -28,8 +28,8 @@
       <file leaf-file-name="big_integer.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/big_integer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="728" column="53" lean-forward="true" selection-start-line="728" selection-start-column="53" selection-end-line="728" selection-end-column="53" />
+            <state relative-caret-position="-374">
+              <caret line="682" column="16" lean-forward="false" selection-start-line="682" selection-start-column="16" selection-end-line="682" selection-end-column="16" />
               <folding>
                 <element signature="e#146#165#0" expanded="true" />
               </folding>
@@ -123,8 +123,8 @@
       <find>operator*=</find>
       <find>copy_on</find>
       <find>turn_big</find>
-      <find>operator/=</find>
       <find>subtract</find>
+      <find>operator/=</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -398,12 +398,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497089278732</updated>
-      <workItem from="1497089280355" duration="21167000" />
+      <workItem from="1497089280355" duration="21690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21167000" />
+    <option name="totallyTimeSpent" value="21690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
@@ -508,8 +508,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/big_integer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="728" column="53" lean-forward="true" selection-start-line="728" selection-start-column="53" selection-end-line="728" selection-end-column="53" />
+        <state relative-caret-position="-374">
+          <caret line="682" column="16" lean-forward="false" selection-start-line="682" selection-start-column="16" selection-end-line="682" selection-end-column="16" />
           <folding>
             <element signature="e#146#165#0" expanded="true" />
           </folding>

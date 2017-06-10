@@ -59,7 +59,7 @@ void big_integer::ensure_capacity(int size) {
 
 void big_integer::resize(int new_size) {
     uint * tmp = ui::alloc(new_size, 1);
-    for (size_t i = 0; i < size; ++i) {
+    for (int i = 0; i < size; ++i) {
         tmp[i] = elements[i];
     }
     for (int i = size; i < new_size; ++i) {
@@ -97,7 +97,7 @@ big_integer::big_integer(std::string const& str) {
     size = 0;
     capacity = std::max((int)str.size(), 2);
     elements = ui::alloc(capacity, 1);
-    for (size_t i = 0; i < capacity; ++i) {
+    for (int i = 0; i < capacity; ++i) {
         elements[i] = 0;
     }
     for (size_t i = start_idx; i < str.size(); ++i) {
@@ -415,7 +415,7 @@ big_integer &big_integer::sub(big_integer const& rhs) {
     }
     ensure_capacity(std::max(size, rhs.size) + 2);
     bool decrement = false;
-    for (size_t i = 0; i < size; ++i) {
+    for (int i = 0; i < size; ++i) {
         if (i >= rhs.size && !decrement) break;
         if (i >= rhs.size && decrement) {
             if (elements[i] == 0) {
@@ -679,8 +679,8 @@ big_integer &big_integer::operator*=(big_integer const &rhs) {
     for (int i = 0; i < size + rhs.size + 5; ++i) {
         tmp[i] = 0;
     }
-    for (size_t i = 0; i < size; ++i) {
-        for (size_t j = 0; j < rhs.size; ++j) {
+    for (int i = 0; i < size; ++i) {
+        for (int j = 0; j < rhs.size; ++j) {
             ll val = (1LL * elements[i] * rhs.elements[j]) + 1LL * tmp[i + j];
             size_t idx = i + j;
             tmp[idx] = ((uint)(val % BASE));
