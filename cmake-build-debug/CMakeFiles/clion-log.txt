@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/YuryBandarchuk/Desktop/cpp-course-master/bigint
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/YuryBandarchuk/Desktop/cpp-course-master/bigint/cmake-build-debug
