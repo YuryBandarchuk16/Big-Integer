@@ -734,7 +734,7 @@ void subtract_division_result(big_integer::uint * a, big_integer::uint * b, int 
         carry /= big_integer::BASE;
         negate_module(denum, dec);
         carry -= dec;
-        a[j] = (uint)denum;
+        a[j] = (big_integer::uint)denum;
     }
     if (carry != 0) {
         a[++to] += carry;
