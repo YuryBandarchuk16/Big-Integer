@@ -322,6 +322,10 @@ big_integer &big_integer::operator+=(big_integer const &rhs) {
         if (new_small >= LEFT_BORDER && new_small <= RIGHT_BORDER) {
             small = new_small;
             return *this;
+        } else {
+            small = new_small;
+            turn_big_mode();
+            return *this;
         }
     }
     if (capacity == 1) {
