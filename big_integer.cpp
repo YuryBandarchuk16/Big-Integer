@@ -11,6 +11,7 @@
 #include <stdexcept>
 #include <algorithm>
 #include <cassert>
+#include <string>
 
 #include "big_integer.h"
 
